@@ -37,8 +37,7 @@ proguard/
 captures/
 
 # IntelliJ
-.idea/
-/.idea
+.idea/*
 *.iml
 # Android Studio 3 in .gitignore file.
 .idea/caches
