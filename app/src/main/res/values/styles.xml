@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Massive.ThemeOverlay.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="bottomSheetStyle">@style/Massive.Widget.BottomSheet.Modal</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">
+            ?colorControlHighlight
+        </item>
+        <item name="android:windowAnimationStyle">@style/Massive.Animation.BottomSheet</item>
+    </style>
+
+    <style name="Massive.ThemeOverlay.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="shapeAppearanceOverlay">?shapeAppearanceMediumComponent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Massive.Animation.AlertDialog</item>
+    </style>
+
+    <style name="Massive.ThemeOverlay.AlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="shapeAppearanceOverlay">?shapeAppearanceMediumComponent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Massive.Animation.AlertDialog</item>
+    </style>
+
+    <style name="Massive.Widget.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">?shapeAppearanceMediumComponent</item>
+    </style>
+
+
+</resources>

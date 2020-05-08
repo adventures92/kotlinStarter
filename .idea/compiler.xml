@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="app" target="1.8" />
+      <module name="Massive.app" target="1.8" />
+      <module name="Massive.buildSrc" target="1.8" />
+      <module name="Massive.extJunction" target="1.8" />
+      <module name="Massive_buildSrc" target="1.8" />
+      <module name="My_Application_buildSrc" target="1.8" />
+      <module name="Starter.app" target="1.8" />
+      <module name="Starter.buildSrc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
